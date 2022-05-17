@@ -1,0 +1,106 @@
+body{
+    background-image: url('grand.jpg');
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+}
+.left
+{
+   
+    display:inline-block;
+    position:absolute;
+    left:20px;
+    top:20px;
+
+    
+}
+.left img{
+    width:100px;
+
+}
+.left div{
+    line-height:19px;
+}
+.mid
+{
+display:block;
+width:40%;
+margin: 20px auto;
+padding: 10px;
+}
+.right
+{
+    position:absolute;
+    display:inline-block;
+    right:33px;
+    top:25px;
+    
+
+}
+.btn
+{
+    background-color:rgb(184, 165, 42);
+    padding:10px;
+    margin:0px 9px;
+    cursor:pointer;
+    color:white;
+    border-radius:4px;
+    border:3px solid orange;
+    font-family: 'Rubik', sans-serif;
+}
+.btn:hover
+{
+    background-color: rgb(148, 165, 71);
+}
+
+.navbar
+{
+    
+    display:inline-block;
+}
+.navbar li{
+    display:inline-block;
+    font-size:20px;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color:white;
+    padding:10px 10px;
+}
+.navbar li a:hover, .navbar li a.active
+{
+    
+    background-color:rgb(148, 165, 71);
+    cursor:pointer;
+    color:black;
+
+}
+.container
+{
+    border: 6px solid white;
+    margin: 106px 464px;
+    width: 40%;
+    border-radius: 7px
+}
+h1{
+    text-align: center;
+    color:white;
+}
+.input_style input
+{
+    text-align: center;
+   border-radius:10px; 
+   padding:5px;
+   margin:11px auto;
+   display: block;
+   width:490px;
+   border:2px solid gray;
+   font-size: medium;
+   font-family: 'Rubik', sans-serif;
+}
+.container button
+{
+display:block;
+width:200px;
+margin:20px auto;
+}
